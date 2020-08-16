@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_01控制数据库增删改查", "ADO_01\ADO_01控制数据库增删改查.csproj", "{590440F0-EDBB-4DC5-9757-2BF65C91B188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_02登录功能的实现", "denglu\ADO_02登录功能的实现.csproj", "{DE0D6C11-1FD0-403B-A475-2EB721D354BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_03SQLHelper的封装", "ADO_02\ADO_03SQLHelper的封装.csproj", "{3367C20C-A097-4C5E-A3DE-07958F5C3900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_04级联查询", "ADO_03\ADO_04级联查询.csproj", "{6B336C2C-B55B-4664-BD8C-7CEEB5EB7B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_05DataAdapter的使用", "ADO_05Dataset与DataTable\ADO_05DataAdapter的使用.csproj", "{7DB7156E-AD07-4D3E-A6BF-C1FCCAEC3D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_05.2创建自己的DataSet和DataTable", "ADO05.2创建自己的DataSet和DataTable\ADO_05.2创建自己的DataSet和DataTable.csproj", "{09A6E483-59E3-4925-AC4C-E8933D93F0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_06 存储过程的调用", "AD0_06 存储过程的调用\ADO_06 存储过程的调用.csproj", "{A62FE8A3-2DB1-4A16-BC3F-CDD0E672AC06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{590440F0-EDBB-4DC5-9757-2BF65C91B188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590440F0-EDBB-4DC5-9757-2BF65C91B188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590440F0-EDBB-4DC5-9757-2BF65C91B188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590440F0-EDBB-4DC5-9757-2BF65C91B188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0D6C11-1FD0-403B-A475-2EB721D354BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0D6C11-1FD0-403B-A475-2EB721D354BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0D6C11-1FD0-403B-A475-2EB721D354BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0D6C11-1FD0-403B-A475-2EB721D354BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3367C20C-A097-4C5E-A3DE-07958F5C3900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3367C20C-A097-4C5E-A3DE-07958F5C3900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3367C20C-A097-4C5E-A3DE-07958F5C3900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3367C20C-A097-4C5E-A3DE-07958F5C3900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B336C2C-B55B-4664-BD8C-7CEEB5EB7B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B336C2C-B55B-4664-BD8C-7CEEB5EB7B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B336C2C-B55B-4664-BD8C-7CEEB5EB7B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B336C2C-B55B-4664-BD8C-7CEEB5EB7B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB7156E-AD07-4D3E-A6BF-C1FCCAEC3D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB7156E-AD07-4D3E-A6BF-C1FCCAEC3D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB7156E-AD07-4D3E-A6BF-C1FCCAEC3D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB7156E-AD07-4D3E-A6BF-C1FCCAEC3D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A6E483-59E3-4925-AC4C-E8933D93F0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A6E483-59E3-4925-AC4C-E8933D93F0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A6E483-59E3-4925-AC4C-E8933D93F0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A6E483-59E3-4925-AC4C-E8933D93F0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62FE8A3-2DB1-4A16-BC3F-CDD0E672AC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62FE8A3-2DB1-4A16-BC3F-CDD0E672AC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62FE8A3-2DB1-4A16-BC3F-CDD0E672AC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62FE8A3-2DB1-4A16-BC3F-CDD0E672AC06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C633EF86-1C2D-4D6A-B069-54F5749FDA08}
+	EndGlobalSection
+EndGlobal
